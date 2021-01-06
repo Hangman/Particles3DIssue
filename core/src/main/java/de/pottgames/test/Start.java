@@ -16,12 +16,12 @@ import com.badlogic.gdx.math.Vector3;
 
 /** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. Listens to user input. */
 public class Start extends ApplicationAdapter implements InputProcessor {
-    public PerspectiveCamera cam;
-    public ModelBatch        modelBatch;
-    public AssetManager      assets;
-    private ParticleEffect   currentEffects;
-    private ParticleSystem   particleSystem;
-    private float            effectScale = 1f;
+    private PerspectiveCamera cam;
+    private ModelBatch        modelBatch;
+    private AssetManager      assets;
+    private ParticleEffect    currentEffects;
+    private ParticleSystem    particleSystem;
+    private float             effectScale = 1f;
 
 
     @Override
